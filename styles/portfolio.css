@@ -53,9 +53,9 @@
 
 /*  Header Style  */
 .header {
-    background-image: url(../assets/circle.png);
+    background-image: url(../assets/developer.png), url(../assets/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: top left, bottom right;
 }
 
 /*  Navigation Style  */
