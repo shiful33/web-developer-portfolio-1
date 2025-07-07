@@ -4,19 +4,162 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Web Development | Portfolio-01</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <script src="https://kit.fontawesome.com/62ebb59c6b.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
-    <header>
+<body class="open-sans-normal">
 
+    <header class="header secondary-bg">
+        <nav>
+            <h3 class="nav-title">Shi<span class="text-primary">f</span>ul</h3>
+            <ul>
+                <li><a class="dark-2" href="">Portfolio</a></li>
+                <li><a class="dark-2" href="">Blog</a></li>
+                <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
+            </ul>
+        </nav>
+
+        <div class="banner">
+            <div class="banner-content">
+               <h4 class="banner-greetings dark-2">Hi, I am</h4>
+               <h1 class="banner-title">Shiful Islam</h1>
+               <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae suscipit, perferendis accusantium nobis praesentium perspiciatis necessitatibus amet soluta vero maiores placeat ex, eaque repellat inventore.</p>
+               <button class="btn-primary"><i class="fa-solid fa-download"></i> Downloal CV</button>
+               <button class="btn-primary"><i class="fa-solid fa-phone-volume"></i> Contact</button>
+            </div>
+            <img class="banner-profile" src="assets/profile.png" alt="">
+        </div>
     </header>
 
     <main>
+       <section class="about secondary-bg">
+           <div class="section-title">About Me</div>
+           <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero maxime dolore accusamus ullam tempore minima! Hic ab optio quo est soluta aspernatur doloribus libero natus consequuntur beatae. Doloremque explicabo nobis vero, sunt necessitatibus accusamus! Mollitia voluptas odit quam a similique, et exercitationem cumque est nam magni voluptatum rem maiores, sed nisi omnis inventore. Delectus porro sequi nesciunt enim, at ratione aspernatur, harum odit sint vitae obcaecati mollitia quo eos culpa corporis commodi quas labore distinctio ad eum aperiam, natus cumque? In voluptates voluptatum molestias reprehenderit labore corporis, quo illo ipsam blanditiis excepturi debitis aliquam culpa mollitia repellendus. Molestiae, ullam maiores.</p>
 
+           <div class="about-items">
+            <div class="about-item">
+                <p class="item-title">Name</p>
+                <p class="item-description">Shiful Islam</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Email</p>
+                <p class="item-description">shiful.joti@gmail.com</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">Date of Birth</p>
+                <p class="item-description">15 August 1988</p>
+            </div>
+            <div class="about-item">
+                <p class="item-title">From</p>
+                <p class="item-description">Faridpur, Bangladesh.</p>
+            </div>
+           </div>
+       </section>
+
+       <!-- What I Do Section -->
+        <section class="skills">
+            <h3 class="section-title text-item">What I Do</h3>
+            <p class="section-description text-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ducimus dolore corporis, asperiores ex perspiciatis aspernatur laboriosam ea maxime nemo expedita sit explicabo iure laborum, at delectus quae perferendis nihil!</p>
+
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="assets/js.png" alt="image">
+                    <h4 class="skill-title">Vanilla JavaScript</h4>
+                    <p class="skill-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis deserunt voluptates deleniti maiores cum neque eos eum eligendi assumenda distinctio?</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/react.png" alt="image">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis deserunt voluptates deleniti maiores cum neque eos eum eligendi assumenda distinctio?</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/node.png" alt="image">
+                    <h4 class="skill-title">Node.js</h4>
+                    <p class="skill-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis deserunt voluptates deleniti maiores cum neque eos eum eligendi assumenda distinctio?</p>
+                </div>
+                <div class="skill">
+                    <img src="assets/mongodb.png" alt="image">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis deserunt voluptates deleniti maiores cum neque eos eum eligendi assumenda distinctio?</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+         <section class="resume">
+            <h3 class="section-title">A Summary of My Resume</h3>
+            <div class="resume-container">
+
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Education</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Diploma In Power Engineer</h4>
+                        <h5 class="experience-sub-title">Polytechnic Institute | 2004-2009</h5>
+                        <p class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora porro praesentium error illo exercitationem id corrupti, unde at, laudantium mollitia, inventore voluptatum reiciendis.</p>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Diploma In Power Engineer</h4>
+                        <h5 class="experience-sub-title">Polytechnic Institute | 2004-2009</h5>
+                        <p class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora porro praesentium error illo exercitationem id corrupti, unde at, laudantium mollitia, inventore voluptatum reiciendis.</p>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Diploma In Power Engineer</h4>
+                        <h5 class="experience-sub-title">Polytechnic Institute | 2004-2009</h5>
+                        <p class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora porro praesentium error illo exercitationem id corrupti, unde at, laudantium mollitia, inventore voluptatum reiciendis.</p>
+                    </div>
+                </div>
+
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Experience</h3>
+                    <div class="experience">
+                        <h4 class="experience-title">Front-End Developer</h4>
+                        <h5 class="experience-sub-title">National IT Bangladesh | Current</h5>
+                        <p class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora porro praesentium error illo exercitationem id corrupti, unde at, laudantium mollitia, inventore voluptatum reiciendis.</p>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Jr. Front-End Developer</h4>
+                        <h5 class="experience-sub-title">Engineers-i Tech BD | 2021-2023</h5>
+                        <p class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora porro praesentium error illo exercitationem id corrupti, unde at, laudantium mollitia, inventore voluptatum reiciendis.</p>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title">Web Designer</h4>
+                        <h5 class="experience-sub-title">Engineers-i Tech BD | 2020-2021</h5>
+                        <p class="experience-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempora porro praesentium error illo exercitationem id corrupti, unde at, laudantium mollitia, inventore voluptatum reiciendis.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-item btn-resume">
+               <button class="btn-primary">Downloal CV</button>
+            </div>
+         </section>
     </main>
 
-    <footer>
+    <footer class="secondary-bg">
+        <div class="footer-column">
+           <div class="section-title">Lets Contact</div>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, labore.</p>
+           <div class="footer-icon">
+            <a href=""><img src="assets/icons/facebook.png" alt=""></a>
+            <a href=""><img src="assets/icons/linkedin.png" alt=""></a>
+            <a href=""><img src="assets/icons/github.png" alt=""></a>
+           </div>
+        </div>
 
+        <div class="footer-column">
+            <h3 class="section-title">Let's Message Me</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="40" rows="20"></textarea>
+                <input class="btn-primary" type="submit" value="Submit">
+            </form>
+        </div>
     </footer>
 
 </body>
