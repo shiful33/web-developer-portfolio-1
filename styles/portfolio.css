@@ -30,6 +30,11 @@
     border: none;
     cursor: pointer;
     margin-right: 10px;
+    transition: .5s;
+}
+
+.btn-primary:hover {
+    background-color: #181818;
 }
 
 .section-title {
@@ -74,11 +79,11 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
+    cursor: pointer !important;
 }
 
 nav ul li {
     list-style: none;
-    cursor: pointer;
 }
 
 nav li a {
