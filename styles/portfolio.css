@@ -266,10 +266,7 @@ footer input[type="text"], footer input[type="email"], footer textarea {
 
 
 
-/* Responsive Media query */
-.hide {
-    display: none;
-}
+/* Responsive Media query For Mobile Device */
 
 @media screen and (max-width: 576px) {
     .skills-container, .resume-container, .secondary-bg, .about-items, .banner, nav, nav > ul {
@@ -340,5 +337,59 @@ footer input[type="text"], footer input[type="email"], footer textarea {
         width: 100%;
         margin-top: 0;
      }
+}
 
+/* Responsive Media query For Tablet Device */
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    .banner {
+        flex-direction: column;
+        margin: 0 0 0 150px;
+    }
+
+    footer input[type="text"], footer input[type="email"], footer textarea, .banner-profile {
+        width: calc(100% - 40px);
+    }
+
+    .header {
+        background-position: center left, bottom right;
+    }
+
+    nav {
+      margin: 0 150px;  
+    }
+
+    .banner-content h4 {
+        font-size: 36px;
+    }
+
+    .banner-content h1 {
+        font-size: 46px;
+    }
+
+    .banner-profile {
+        margin-top: 0px;
+    }
+    
+    .item-description {
+        font-size: 18px;
+    }
+
+    .about {
+        padding: 100px 10px;
+    }
+
+    .about-item {
+        margin-right: 10px;
+    }
+
+    .section-description {
+        padding: 10px 40px;
+    }
+
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        margin: 20px;
+    }
 }
