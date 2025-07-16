@@ -390,6 +390,15 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     .skills-container {
         display: grid;
         grid-template-columns: repeat(2, auto);
-        margin: 20px;
+        margin: 50px;
+    }
+
+    .resume-container {
+        padding: 0px 30px;
+    }
+
+    .secondary-bg {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
